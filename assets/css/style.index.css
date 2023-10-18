@@ -1,0 +1,200 @@
+
+header.header-top 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+header.header-top 
+    div#button-header-top 
+    {
+        margin-top: 20px;
+    }
+
+header.header-top 
+    div#button-header-top button 
+    {
+        border-style: none;
+        padding: 6px;
+        border-radius: 5px;
+        width: 132px;
+    }
+
+header.header-top
+    div#button-header-top button.button-dark 
+    {
+        background-color: #111;
+        color: #eee;
+    }
+
+header.header-top
+    div#button-header-top button.button-orage 
+    {
+        background-color: orangered;
+        color: white;
+    }
+
+section.section-top 
+{
+    border-bottom: 1px solid #eee;
+}
+
+section.section-top 
+    div#button-section-top 
+    {
+        margin-bottom: 10px;
+    }
+
+section.section-top 
+    div#button-section-top button
+    {
+        border-style: none;
+        padding: 6px;
+        border-radius: 5px;
+        width: 140px;
+    }
+
+section.section-top 
+    div#button-section-top button.button-dark
+    {
+        background-color: #111;
+        color: #eee;
+    }
+
+section.section-top 
+    div#button-section-top button.button-transparent
+    {
+        background-color: transparent;
+        color: #111;
+    }
+
+section.pinterest 
+    h3.pinterest-title 
+    {
+        font-weight: 100;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+section.pinterest
+    div.container 
+    {
+        width: 100%;
+        margin: auto;
+        columns: 4;
+        column-gap: 10px;
+    }
+
+section.pinterest
+    div.container div.box 
+    {
+        width: 100%;
+        margin-bottom: 10px;
+        break-inside: avoid;
+    }
+
+section.pinterest
+    div.container div.box img 
+    {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+section.pinterest
+    div.container div.box div.card-img 
+    {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 8px;
+        padding: 15px;
+        padding-bottom: 130px;
+        margin-bottom: 6px;
+    }
+
+section.pinterest
+    div.container div.box div.card-img-alt 
+    {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 8px;
+        padding: 15px;
+        padding-bottom: 380px;
+        margin-bottom: 6px;
+    }
+
+section.pinterest
+    div.container div.box div.card-img div.rounded-dark 
+    {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 6px;
+        border-radius: 50px;
+        color: #ddd;
+        font-size: 13px;
+    }
+
+section.pinterest
+    div.container div.box div.card-img-alt div.rounded-dark 
+    {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 6px;
+        border-radius: 50px;
+        color: #ddd;
+        font-size: 13px;
+    }
+
+section.pinterest
+    div.container div.box div.card-img-alt div.rounded-light 
+    {
+        background-color: white;
+        padding: 6px;
+        border-radius: 3px;
+        color: #111;
+        font-size: 14px;
+        width: 55px;
+        text-align: center;
+    }
+
+section.pinterest
+    div.container div.box div.card-img div.rounded-light 
+    {
+        background-color: white;
+        padding: 6px;
+        border-radius: 3px;
+        color: #111;
+        font-size: 14px;
+        width: 55px;
+        text-align: center;
+    }
+
+@media (max-width: 1200px) {
+    
+    section.pinterest div.container 
+    {
+        width: calc(100% - 20px);
+    } 
+}
+
+@media (max-width: 720px) {
+    
+    div.container div.box 
+    {
+        width: 100%;
+    }
+}
+
+footer.footer-basic
+{
+    margin-top: 100px;
+    margin-left: -60px;
+    margin-right: -60px;
+    margin-bottom: -100px;
+    padding: 70px;
+    background-color: #111;
+}
+
+footer.footer-basic 
+    h3.title-footer-basic {
+        color: #999;
+        font-size: 40px;
+        text-align: center;
+}

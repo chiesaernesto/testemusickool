@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisar</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.search.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+
+<style>
+    
+    div.division
+        div.container div.box div.card-img 
+        {
+            background-image: url('assets/img/pexels-kai-pilger-1341277.jpg');
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    div.division
+        div.container div.box div.card-img-alt
+        {
+            background-image: url('assets/img/pexels-adrien-olichon-6395412.jpg');
+            background-attachment: scroll;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+</style>
+<body>
+    
+    <header class="header-top">
+        <div id="title-header-top">
+            <h2>
+                Fotos
+            </h2>
+        </div>
+
+        <div id="button-header-top">
+            <button class="button-dark">Pesquisar foto</button>
+            <button class="button-orage">Enviar uma foto</button>
+        </div>
+    </header>
+
+    <section class="section-search">
+        <input type="text" placeholder="Escreva alguma coisa aqui para pesquisar..." name="" id="">
+        <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i>
+    </section>
+
+    <div class="division">
+        <div class="division-left">
+            <h3>
+                <i class="fa fa-list-alt"></i>
+                Filters
+            </h3>
+            <div class="card">
+                <div class="card-body">
+                    <h4 style="margin-top: -24px">Categoria</h4>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Imagens
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Vídeos
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Ilustrações
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Criadores
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4>Subcategoria</h4>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Tecnologia
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Cultura
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Gastronomia
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Sociedade
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Animais
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4>Classificação</h4>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Recentes 
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Mais Pesquisados
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Mais Populares
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4>Licença</h4>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        All 
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Grátis 
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Premium
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4>Margem do Preço</h4>
+                    <div>
+                        <input style="width: 100%;" type="range" name="" id="">
+                    </div>
+                    <div class="inputs">
+                        <div>
+                            <label for="">Min</label><br>
+                            <input class="form-control" type="number" min="0" placeholder="0" name="" id="">
+                        </div>
+                        <div>
+                            <label for="">Max</label><br>
+                            <input class="form-control" type="number" min="0" placeholder="9999" name="" id="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4>Background</h4>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        All 
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Transparente
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        Isolado
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h4>Background</h4>
+                    <div>
+                        <input type="radio" name="" id="">
+                        Nenhum
+                    </div>
+                    <div>
+                        <input type="radio" name="" id="">
+                        Recondicionado
+                    </div>
+                    <div>
+                        <input type="radio" name="" id="">
+                        Novo
+                    </div>
+                    <div>
+                        <input type="radio" name="" id="">
+                        Outro
+                    </div>
+                </div>
+                <div style="border-style: none;" class="card-body">
+                    <h4>Avaliações</h4>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: #ddd;" class="fa fa-star"></i>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: #ddd;" class="fa fa-star"></i>
+                        <i style="color: #ddd;" class="fa fa-star"></i>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: orangered;" class="fa fa-star"></i>
+                        <i style="color: #ddd;" class="fa fa-star"></i>
+                        <i style="color: #ddd;" class="fa fa-star"></i>
+                        <i style="color: #ddd;" class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="division-right">
+            <div class="title-division-left">
+                <!-- <div class=""> -->
+                <span>Resultado para sua pesquisa por "Walter De Jesus"</span>
+                <!-- </div> -->
+            <!-- </div>
+            <div class="title-division-right"> -->
+                <button>
+                    Licença: Tudo
+                    <i class="fa fa-angle-down"></i>
+                </button>
+                <button>
+                    Orientação: vertical tudo
+                    <i class="fa fa-angle-down"></i>
+                </button>
+                <button>
+                    Classificação: Mais Popular
+                    <i class="fa fa-angle-down"></i>
+                </button>
+                
+                <div style="margin-top: 16px" class="container">
+                    <div class="box">
+                        <div class="card-img">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+        
+                        <div class="card-img-alt">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-message"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <div class="card-img-alt">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-message"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+        
+                        <div class="card-img">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <div class="card-img-alt">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-message"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="card-img">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <div class="card-img">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+        
+                        <div class="card-img-alt">
+                            <div class="rounded-dark">
+                                <i class="fa fa-eye"></i>
+                                123.111.113
+                            </div>
+                            <div class="rounded-light">
+                                <i style="color: red" class="fa fa-heart"></i>
+                                <i class="fa fa-message"></i>
+                                <i class="fa fa-arrow-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- <section class="pinterest">
+        <h3 class="pinterest-title">
+            Imagens Recentes
+        </h3>
+
+        <div class="container">
+            <div class="box">
+                <div class="card-img"></div>
+                <img src="assets/img/pexels-kai-pilger-1341277.jpg" alt="">
+                <img src="assets/img/pexels-adrien-olichon-6395412.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="assets/img/pexels-adrien-olichon-6395412.jpg" alt="">
+                <img src="assets/img/pexels-kai-pilger-1341277.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="assets/img/pexels-adrien-olichon-6395412.jpg" alt="">
+                <img src="assets/img/pexels-kai-pilger-1341277.jpg" alt="">
+            </div>
+            <div class="box">
+                <img src="assets/img/pexels-kai-pilger-1341277.jpg" alt="">
+                <img src="assets/img/pexels-adrien-olichon-6395412.jpg" alt="">
+            </div>
+            
+        </div>
+
+        <h3 class="pinterest-title">
+            Imagens Antigas
+        </h3>
+
+        <div class="container">
+            <div class="box">
+                <div class="card-img">
+                    <div class="rounded-dark">
+                        <i class="fa fa-eye"></i>
+                        123.111.113
+                    </div>
+                    <div class="rounded-light">
+                        <i style="color: red" class="fa fa-heart"></i>
+                        <i class="fa fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <footer class="footer-basic">
+        <h3 class="title-footer-basic">
+            Footer
+        </h3>
+    </footer>
+
+</body>
+</html>
